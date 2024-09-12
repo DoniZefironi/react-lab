@@ -101,7 +101,7 @@ body.dark .header-nav a{
 #themeButton:active {
   transform: scale(0.9);
 }
- /* .place{ 
+.place{ 
   width: 100%;
   display: flex;
   align-items: center;
@@ -136,7 +136,7 @@ flex-direction: column;
   font-size: 100%;
 }
 .imgplace{
-  content: url("/place.png");
+  content: url("../public/image/place.png");
   width: 100%;
   transition: width 0.3s ease, height 0.3s ease;
 }
@@ -144,13 +144,13 @@ flex-direction: column;
   width: 150%;
 }
 .placeimg{
-  content: url("../my-react-app/src/image/placebottom.png");
+  content: url("../public/image/placebottom.png");
   width: 34%;
 }
 body.dark .placeimg{
   filter: invert(1);
 }
-.gheter{
+/* .gheter{
   display: flex;
   justify-content: center;
   align-items: center;
@@ -753,6 +753,7 @@ line-height: 22.4px;
 letter-spacing: 0.3199999928474426px;
 text-align: center;
 }
+*/
 footer{
   display: flex;
   justify-content: space-around;
@@ -779,7 +780,7 @@ body.dark footer {
   color: #fff;
 }
 .imgfooter{
-  content: url("../my-react-app/src/image/placebottom.png");
+  content: url("../public/image/placebottom.png");
   margin-top: 36px;
 }
 body.dark .imgfooter{
@@ -1277,4 +1278,4 @@ font-size: 34px;
 .julpun{
   flex-direction: column;
 }
-} */
+} 
