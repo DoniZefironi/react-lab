@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import UpTextFooter from './uptextfooter';
+import DownFooter from './downfooter';
 
 class Footer extends Component {
   render() {
@@ -10,12 +11,7 @@ class Footer extends Component {
         </div>
         <div class="textfooter">
         <UpTextFooter />
-            <div class="downfooter">
-                <p>© 2022 WAYGOOD</p>
-                <p id="slova"></p>
-                <p id="photo"></p>
-                <p id="disain"></p>
-            </div>
+        <DownFooter />
         </div>
     </footer>
     );
