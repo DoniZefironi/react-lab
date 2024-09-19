@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import HeaderBlock from './headerblock';
+import './style/header.css';
 
 class Header extends Component {
   render() {

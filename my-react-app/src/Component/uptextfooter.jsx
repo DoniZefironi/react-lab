@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import './style/uptextfooter.css';
 
 class UpTextFooter extends Component {
   render() {

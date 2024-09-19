@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import UpTextFooter from './uptextfooter';
 import DownFooter from './downfooter';
+import './style/footer.css';
 
 class Footer extends Component {
   render() {

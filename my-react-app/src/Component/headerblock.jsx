@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import './style/headerblock.css';
 
     class HeaderBlock extends Component {
         render() {

@@ -1,9 +1,8 @@
 import React, { Component } from 'react';
+import Header from './Component/header';
+import PlaceComponent from './Component/placecomponent';
+import Footer from './Component/footer'
 import './App.css';
-import Header from './header';
-import PlaceComponent from './placecomponent';
-import Footer from './footer'
-
 class App extends Component {
   render() {
     const organizationName = "Waygood";
